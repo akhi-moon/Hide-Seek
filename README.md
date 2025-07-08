@@ -8,13 +8,21 @@ Hide & Seek is a web-based steganography system that allows users to securely hi
 
 🔍 Key Features
 •	✅ Encode messages into images
+
 •	🔓 Decode hidden messages from images
+
 •	🛡️ AI-based Message Validation using CSP constraints:
-         o	Filters banned words, emojis, all caps, offensive content
+         
+	           o Filters banned words, emojis, all caps, offensive content
+
 •	📂 Two types of gallery: Encoded & To-Encode Images
+
 •	🔐 Secure user login, profile photo display, and password change
+
 •	👥 User-based access control for added privacy
+
 •	🎨 Aesthetic and intuitive UI with smooth navigation
+
 •	📥 Image download option for encoded images
 
 
@@ -22,48 +30,70 @@ Hide & Seek is a web-based steganography system that allows users to securely hi
 
 👤 Akhi Moon Jahan (ID: C223202)
 •	📝 Designed the Sign Up & Login system with user authentication
+
 •	👤 Created the Profile Display and Error Pages for better UX
+
 •	🖼️ Developed the Encoded Images Gallery and To-Encode Image Gallery containing some images with preset messages to decode and some images to encode
+
 •	🔍 Contributed to the design and testing of the AI-based Message Validator module
+
 •	🎨 Styled and refined many UI components for consistency and responsiveness
 
 
 👤 Fayeza Afrah Hissan (ID: C223206)
 •	🏠 Designed the Home/Index page with navigation, structure, and layout
+
 •	🧬 Developed the Encoding and Decoding logic and UI
+
 •	💡 Designed and implemented the About page showcasing the project features and concepts
+
 •	🧠 Built the AI-based Message Validation feature using CSP
+
 •	📋 Helped design rules and constraints for secure message validation
 
 
 ⚙️ Tech Stack
 •	Backend: Django (Python)
+
 •	Frontend: HTML, CSS, JavaScript
+
 •	AI/Validation: Python CSP logic, profanity & dictionary filtering
+
 •	Database: SQLite3 (default for Django)
+
 •	Deployment: Run locally via manage.py runserver (run from inside the hideseek folder using PowerShell)
 
 
 🚀 Steps to Run the Project
+
+
 📦 1. Install Required Tools
+
 Make sure you have these installed:
+
 •	Python 3.10 or higher (e.g., Python 3.13)
+
 •	Django 5.2.3
+
 •	pip (Python package manager)
+
 •	virtualenv (optional but recommended)
 
 
 🛠️ 2. Clone the Project Repository
+
 git clone https://github.com/your-username/hide-and-seek-steganography.git
 cd hide-and-seek-steganography
 
 
 📁 3. Set Up a Virtual Environment (Optional but recommended)
+
 python -m venv venv
 venv\Scripts\activate    
 
 
 📚 4. Install Required Packages
+
 pip install django pillow nltk emoji better_profanity
 Also download the NLTK English word list:
 import nltk
@@ -71,21 +101,25 @@ nltk.download('words')
 
 
 ⚙️ 5. Run Migrations
+
 python manage.py makemigrations
 python manage.py migrate
 
 
 👤 6. (Optional) Create a Superuser
+
 python manage.py createsuperuser
 
 
 ▶️ 7. Start the Django Server
+
 python manage.py runserver
 Visit the site in your browser at:
 http://127.0.0.1:8000/
 
 
 📄 License
+
 This project is open-source and developed for academic purposes.
 All rights reserved ©️ 2025 –Akhi Moon Jahan & Fayeza Afrah Hissan
 
