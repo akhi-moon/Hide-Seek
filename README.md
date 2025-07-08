@@ -1,17 +1,17 @@
-🔐 Hide & Seek: An Image-Based Steganography System
+## 🔐 Hide & Seek: An Image-Based Steganography System
 
 A secure, intelligent, and user-friendly Django web application for Encoding and Decoding hidden messages within images using LSB (Least Significant Bit) Substitution, enhanced with AI-based Message Validation using Constraint Satisfaction Problem (CSP) techniques.
 
 
 ------------------------------------------------------------------------------------------------------------------------
-📝 Project Description
+### 📝 Project Description
 
 Hide & Seek is a web-based steganography system that allows users to securely hide secret text messages inside images and extract them later. 
 With added AI-based Message Validator, the system ensures messages are safe, non-offensive, and format-compliant before they are hidden inside images.
 
 
 ------------------------------------------------------------------------------------------------------------------------
-🔍 Key Features
+### 🔍 Key Features
 
     •	✅ Encode messages into images
 
@@ -34,7 +34,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
 
 ------------------------------------------------------------------------------------------------------------------------
-👩‍💻 Contributors & Roles
+### 👩‍💻 Contributors & Roles
 
 
 👤 Akhi Moon Jahan (ID: C223202)
@@ -66,7 +66,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
 
 ------------------------------------------------------------------------------------------------------------------------
-⚙ Tech Stack
+### ⚙ Tech Stack
 
     •	Backend: Django (Python)
 
@@ -81,7 +81,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
 
 ------------------------------------------------------------------------------------------------------------------------
-🚀 Steps to Run the Project
+### 🚀 Steps to Run the Project
 
     📦 1. Install Required Tools
 
@@ -92,26 +92,30 @@ With added AI-based Message Validator, the system ensures messages are safe, non
             •	Django 5.2.3
 
             •	pip (Python package manager)
+            
+            •	Git
 
             •	virtualenv (optional but recommended)
 
     🛠 2. Clone the Project Repository
 
-            git clone https://github.com/your-username/hide-and-seek-steganography.git
-
-            cd hide-and-seek-steganography
+            ```bash
+            
+            git clone https://github.com/FAH-works/Hide-Seek.git
+            
+            cd Hide-Seek
 
 
     📁 3. Set Up a Virtual Environment (Optional but recommended)
 
-            python -m venv venv
+            python -m venv .venv
 
-            venv\Scripts\activate   
+            .venv\Scripts\activate   
 
 
     📚 4. Install Required Packages
 
-            pip install django pillow nltk emoji better_profanity
+            pip install -r requirements.txt
 
         Also download the NLTK English word list:
 
@@ -143,7 +147,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
 
 ------------------------------------------------------------------------------------------------------------------------
-📄 License
+### 📄 License
 
 This project is open-source and developed for academic purposes.
 
