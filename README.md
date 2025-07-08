@@ -1,58 +1,73 @@
 🔐 Hide & Seek: An Image-Based Steganography System
+
 A secure, intelligent, and user-friendly Django web application for Encoding and Decoding hidden messages within images using LSB (Least Significant Bit) Substitution, enhanced with AI-based Message Validation using Constraint Satisfaction Problem (CSP) techniques.
 
 
+------------------------------------------------------------------------------------------------------------------------
 📝 Project Description
-Hide & Seek is a web-based steganography system that allows users to securely hide secret text messages inside images and extract them later.With added AI-based Message Validator, the system ensures messages are safe, non-offensive, and format-compliant before they are hidden inside images.
+
+Hide & Seek is a web-based steganography system that allows users to securely hide secret text messages inside images and extract them later. 
+With added AI-based Message Validator, the system ensures messages are safe, non-offensive, and format-compliant before they are hidden inside images.
 
 
+------------------------------------------------------------------------------------------------------------------------
 🔍 Key Features
-•	✅ Encode messages into images
 
-•	🔓 Decode hidden messages from images
+    •	✅ Encode messages into images
 
-•	🛡️ AI-based Message Validation using CSP constraints:
-         
-	           o Filters banned words, emojis, all caps, offensive content
+    •	🔓 Decode hidden messages from images
 
-•	📂 Two types of gallery: Encoded & To-Encode Images
+    •	🛡 AI-based Message Validation using CSP constraints:
 
-•	🔐 Secure user login, profile photo display, and password change
+      o	Filters banned words, emojis, all caps, offensive content
 
-•	👥 User-based access control for added privacy
+    •	📂 Two types of gallery: Encoded & To-Encode Images
 
-•	🎨 Aesthetic and intuitive UI with smooth navigation
+    •	🔐 Secure user login, profile photo display, and password change
 
-•	📥 Image download option for encoded images
+    •	👥 User-based access control for added privacy
+
+    •	🎨 Aesthetic and intuitive UI with smooth navigation
+
+    •	📥 Image download option for encoded images
 
 
+
+------------------------------------------------------------------------------------------------------------------------
 👩‍💻 Contributors & Roles
 
+
 👤 Akhi Moon Jahan (ID: C223202)
-•	📝 Designed the Sign Up & Login system with user authentication
 
-•	👤 Created the Profile Display and Error Pages for better UX
+    •	📝 Designed the Sign Up & Login system with user authentication
 
-•	🖼️ Developed the Encoded Images Gallery and To-Encode Image Gallery containing some images with preset messages to decode and some images to encode
+    •	👤 Created the Profile Display and Error Pages for better UX
 
-•	🔍 Contributed to the design and testing of the AI-based Message Validator module
+    •	🖼 Developed the Encoded Images Gallery and To-Encode Image Gallery containing some images with preset messages to decode and some images to encode
 
-•	🎨 Styled and refined many UI components for consistency and responsiveness
+    •	🔍 Contributed to the design and testing of the AI-based Message Validator module
+
+    •	🎨 Styled and refined many UI components for consistency and responsiveness
+
 
 
 👤 Fayeza Afrah Hissan (ID: C223206)
-•	🏠 Designed the Home/Index page with navigation, structure, and layout
 
-•	🧬 Developed the Encoding and Decoding logic and UI
+    •	 🏠 Designed the Home/Index page with navigation, structure, and layout
 
-•	💡 Designed and implemented the About page showcasing the project features and concepts
+    •	🧬 Developed the Encoding and Decoding logic and UI
 
-•	🧠 Built the AI-based Message Validation feature using CSP
+    •	💡 Designed and implemented the About page showcasing the project features and concepts
 
-•	📋 Helped design rules and constraints for secure message validation
+    •	🧠 Built the AI-based Message Validation feature using CSP
+
+    •	📋 Helped design rules and constraints for secure message validation
 
 
-⚙️ Tech Stack
+
+------------------------------------------------------------------------------------------------------------------------
+⚙ Tech Stack
+
 •	Backend: Django (Python)
 
 •	Frontend: HTML, CSS, JavaScript
@@ -64,8 +79,9 @@ Hide & Seek is a web-based steganography system that allows users to securely hi
 •	Deployment: Run locally via manage.py runserver (run from inside the hideseek folder using PowerShell)
 
 
-🚀 Steps to Run the Project
 
+------------------------------------------------------------------------------------------------------------------------
+🚀 Steps to Run the Project
 
 📦 1. Install Required Tools
 
@@ -79,30 +95,35 @@ Make sure you have these installed:
 
 •	virtualenv (optional but recommended)
 
-
-🛠️ 2. Clone the Project Repository
+🛠 2. Clone the Project Repository
 
 git clone https://github.com/your-username/hide-and-seek-steganography.git
+
 cd hide-and-seek-steganography
 
 
 📁 3. Set Up a Virtual Environment (Optional but recommended)
 
 python -m venv venv
-venv\Scripts\activate    
+
+venv\Scripts\activate   
 
 
 📚 4. Install Required Packages
 
 pip install django pillow nltk emoji better_profanity
+
 Also download the NLTK English word list:
+
 import nltk
+
 nltk.download('words')
 
 
-⚙️ 5. Run Migrations
+⚙ 5. Run Migrations
 
 python manage.py makemigrations
+
 python manage.py migrate
 
 
@@ -111,15 +132,19 @@ python manage.py migrate
 python manage.py createsuperuser
 
 
-▶️ 7. Start the Django Server
+▶ 7. Start the Django Server
 
 python manage.py runserver
+
 Visit the site in your browser at:
+
 http://127.0.0.1:8000/
 
 
+
+------------------------------------------------------------------------------------------------------------------------
 📄 License
 
 This project is open-source and developed for academic purposes.
-All rights reserved ©️ 2025 –Akhi Moon Jahan & Fayeza Afrah Hissan
 
+All rights reserved © 2025 –Akhi Moon Jahan & Fayeza Afrah Hissan
