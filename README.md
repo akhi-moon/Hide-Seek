@@ -19,7 +19,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
     •	🛡 AI-based Message Validation using CSP constraints:
 
-      o	Filters banned words, emojis, all caps, offensive content
+              o	Filters banned words, emojis, all caps, offensive content
 
     •	📂 Two types of gallery: Encoded & To-Encode Images
 
@@ -53,7 +53,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
 👤 Fayeza Afrah Hissan (ID: C223206)
 
-    •	 🏠 Designed the Home/Index page with navigation, structure, and layout
+    •	🏠 Designed the Home/Index page with navigation, structure, and layout
 
     •	🧬 Developed the Encoding and Decoding logic and UI
 
@@ -68,77 +68,77 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 ------------------------------------------------------------------------------------------------------------------------
 ⚙ Tech Stack
 
-•	Backend: Django (Python)
+    •	Backend: Django (Python)
 
-•	Frontend: HTML, CSS, JavaScript
+    •	Frontend: HTML, CSS, JavaScript
 
-•	AI/Validation: Python CSP logic, profanity & dictionary filtering
+    •	AI/Validation: Python CSP logic, profanity & dictionary filtering
 
-•	Database: SQLite3 (default for Django)
+    •	Database: SQLite3 (default for Django)
 
-•	Deployment: Run locally via manage.py runserver (run from inside the hideseek folder using PowerShell)
+    •	Deployment: Run locally via manage.py runserver (run from inside the hideseek folder using PowerShell)
 
 
 
 ------------------------------------------------------------------------------------------------------------------------
 🚀 Steps to Run the Project
 
-📦 1. Install Required Tools
+    📦 1. Install Required Tools
 
-Make sure you have these installed:
+        Make sure you have these installed:
 
-•	Python 3.10 or higher (e.g., Python 3.13)
+            •	Python 3.10 or higher (e.g., Python 3.13)
 
-•	Django 5.2.3
+            •	Django 5.2.3
 
-•	pip (Python package manager)
+            •	pip (Python package manager)
 
-•	virtualenv (optional but recommended)
+            •	virtualenv (optional but recommended)
 
-🛠 2. Clone the Project Repository
+    🛠 2. Clone the Project Repository
 
-git clone https://github.com/your-username/hide-and-seek-steganography.git
+            git clone https://github.com/your-username/hide-and-seek-steganography.git
 
-cd hide-and-seek-steganography
-
-
-📁 3. Set Up a Virtual Environment (Optional but recommended)
-
-python -m venv venv
-
-venv\Scripts\activate   
+            cd hide-and-seek-steganography
 
 
-📚 4. Install Required Packages
+    📁 3. Set Up a Virtual Environment (Optional but recommended)
 
-pip install django pillow nltk emoji better_profanity
+            python -m venv venv
 
-Also download the NLTK English word list:
-
-import nltk
-
-nltk.download('words')
+            venv\Scripts\activate   
 
 
-⚙ 5. Run Migrations
+    📚 4. Install Required Packages
 
-python manage.py makemigrations
+            pip install django pillow nltk emoji better_profanity
 
-python manage.py migrate
+        Also download the NLTK English word list:
+
+            import nltk
+
+            nltk.download('words')
 
 
-👤 6. (Optional) Create a Superuser
+    ⚙ 5. Run Migrations
 
-python manage.py createsuperuser
+            python manage.py makemigrations
+
+            python manage.py migrate
 
 
-▶ 7. Start the Django Server
+    👤 6. (Optional) Create a Superuser
 
-python manage.py runserver
+            python manage.py createsuperuser
 
-Visit the site in your browser at:
 
-http://127.0.0.1:8000/
+    ▶ 7. Start the Django Server
+
+            python manage.py runserver
+
+        Visit the site in your browser at:
+
+            http://127.0.0.1:8000/
 
 
 
