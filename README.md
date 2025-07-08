@@ -43,7 +43,7 @@ With added AI-based Message Validator, the system ensures messages are safe, non
 
     •	👤 Created the Profile Display and Error Pages for better UX
 
-    •	🖼 Developed the Encoded Images Gallery and To-Encode Image Gallery containing some images with preset messages to decode and some images to encode
+    •	🖼 Developed the Encoded Images Gallery and To-Encode Image Gallery 
 
     •	🔍 Contributed to the design and testing of the AI-based Message Validator module
 
